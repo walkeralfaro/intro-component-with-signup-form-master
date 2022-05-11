@@ -28,7 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![landscape-1](https://github.com/WalkerAlfaro/intro-component-with-signup-form-master/blob/main/screenshots/landscape.png)
+
+![landscape-error1](https://github.com/WalkerAlfaro/intro-component-with-signup-form-master/blob/main/screenshots/landscape_error1.png)
+
+![landscape-error2](https://github.com/WalkerAlfaro/intro-component-with-signup-form-master/blob/main/screenshots/landscape_error2.png)
+
+![mobile](https://github.com/WalkerAlfaro/intro-component-with-signup-form-master/blob/main/screenshots/mobile.png)
 
 ### Links
 
