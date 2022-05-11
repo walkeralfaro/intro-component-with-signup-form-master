@@ -1,5 +1,56 @@
-$prueba: yellow;
+@use 'variables' as v;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 body {
-    background-color: $prueba;
+    font-family: v.$Font;
+    font-size: 1.6rem;
+    color: white;
+    background-image: url('/src/assets/images/bg-intro-desktop.png');
+    background-color: v.$Red;
+    position: relative;
+}
+
+p,
+h1 {
+ margin: 0;
+}
+
+.container {
+    width: 95%;
+    max-width: 115rem;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem auto;
+}
+
+@media (max-width: 768px) {
+
+    .grid {
+    display: grid;
+    grid-template-rows: 30rem 1fr;
+    grid-template-columns: 1fr;
+    margin: 10rem 0;
+    }
 }

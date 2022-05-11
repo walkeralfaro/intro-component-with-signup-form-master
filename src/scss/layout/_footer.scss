@@ -1,0 +1,16 @@
+@use './base/variables' as v;
+
+/* FOOTER */
+.attribution {
+    font-size: 1rem;
+    width: 100%;
+    position: absolute;
+    top: 97%;
+    text-align: center;
+}
+
+.attribution a {
+    color: v.$Blue;
+    font-weight: bold;
+    text-decoration: none;
+}

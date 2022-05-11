@@ -1,0 +1,30 @@
+@use './base/variables' as v;
+
+.advice_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    p {
+        margin: 2rem 0;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .advice_section {
+        text-align: center;
+        padding: 2rem;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+    }
+}
