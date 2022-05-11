@@ -15,7 +15,7 @@ body {
     font-family: v.$Font;
     font-size: 1.6rem;
     color: white;
-    background-image: url('/src/assets/images/bg-intro-desktop.png');
+    background-image: url('/build/images/bg-intro-desktop.png');
     background-color: v.$Red;
     position: relative;
 }
@@ -52,5 +52,9 @@ h1 {
     grid-template-rows: 30rem 1fr;
     grid-template-columns: 1fr;
     margin: 10rem 0;
+    }
+
+    body {
+        background-image: url('/build/images/bg-intro-mobile.png');
     }
 }
